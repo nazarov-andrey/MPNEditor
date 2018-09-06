@@ -1,0 +1,12 @@
+{
+    "name": "Touchscript-Editor",
+    "references": [
+        "Touchscript"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}

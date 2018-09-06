@@ -1,0 +1,12 @@
+{
+    "name": "MPNEditor-Editor",
+    "references": [
+        "MPNEditor"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}

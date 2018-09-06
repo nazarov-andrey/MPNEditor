@@ -1,0 +1,13 @@
+{
+    "name": "MPNEditor",
+    "references": [
+        "Zenject",
+        "Touchscript",
+        "TriangleNet",
+        "ThridParty"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
+}
