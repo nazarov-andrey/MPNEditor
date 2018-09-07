@@ -158,7 +158,7 @@ namespace Planner.RoomGeometry
 
             var i = 0;
             do {
-                Assert.IsTrue (++i < 10);
+                Assert.IsTrue (++i < 100);
                 var startWall = orderedWallCounters
                     .FirstOrDefault (x => x.Counter == 0);
 

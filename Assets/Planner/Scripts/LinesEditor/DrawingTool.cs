@@ -186,6 +186,7 @@ namespace Planner.LinesEditor
             var ray = mainCamera.ScreenPointToRay (e.Position);
             Dot tappedDot = GetTappedDot (ray);
             bool createNewDot = tappedDot == null;
+            Debug.Log($"createNewDot {createNewDot}");
 
             if (lastDot == null) {
                 if (createNewDot)
@@ -208,7 +209,7 @@ namespace Planner.LinesEditor
             var wallEnd = newDot.transform.position;
 
             Debug.Log ($"intersectionType {intersectionType}");
-            if (intersectionType == WallIntersectionType.PointOnWall) {
+            if (createNewDot && intersectionType == WallIntersectionType.PointOnWall) {
                 wallEnd = intersection;
                 newDot.transform.position = intersection.ToVector3 (planeDistance);
 
